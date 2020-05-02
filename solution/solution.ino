@@ -14,9 +14,9 @@ int main(void){
   MotorInit();
   
   SensorInit();
-  //ControlInit(&L_speed, &R_speed);
+  ControlInit(&L_speed, &R_speed);
   while(1){
-    //Control(SensorRead(), L_speed, R_speed);
+    Control(SensorRead(), L_speed, R_speed);
     MotorIn(GO, 180,180);
 
 
