@@ -5,9 +5,6 @@
 #include <avr/interrupt.h>
 #include "Signal.h"
 
-
 void SensorInit();
 int SensorRead();
-
-
 #endif
